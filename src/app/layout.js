@@ -1,12 +1,12 @@
-import { Inter, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+import Navbar from "../components/Navbar";
 
-const inter = Poppins({ subsets: ["latin"],weight: ["500"] });
+const inter = Poppins({ subsets: ["latin"],weight: ["400"] });
 
 export const metadata = {
-  title: "Portofolio",
-  description: "My Portofolio",
+  title: "Farm",
+  description: "farm",
 };
 
 export default function RootLayout({ children }) {
